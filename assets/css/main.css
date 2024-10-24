@@ -6,6 +6,21 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.profile-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Optional: centers the image vertically and horizontally */
+}
+
+.profile-picture {
+    width: 300px;   /* Adjust the size of the circle */
+    height: 300px;
+    border-radius: 50%; /* This makes the image a circle */
+    object-fit: cover;  /* Ensures the image fits nicely within the circle */
+    border: 2px solid #ccc; /* Optional: adds a border to the circle */
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
